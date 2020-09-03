@@ -27,7 +27,7 @@ namespace WPFapplauncher
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Process.Start("game.exe");
         }
     }
 }
