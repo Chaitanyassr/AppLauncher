@@ -9,7 +9,7 @@ namespace WPFapplauncher
 {
     class Launch
     {
-        public void PlayGame()
+        public static void PlayGame()
         {
             Process.Start("app.exe");
         }
