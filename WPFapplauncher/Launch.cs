@@ -9,18 +9,13 @@ namespace WPFapplauncher
 {
     class Launch
     {
-        public static void Installer()
+        public static void LaunchApp()
         {
             // Install is the exectuable file that will download the msi from the webstie where Hereafter project would be there
             Process.Start("Install.exe");
         }
 
     }
-    class Install
-    {
-        public static void Installer()
-        {
 
-        }
     }
 }

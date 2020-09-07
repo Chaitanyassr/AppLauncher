@@ -27,16 +27,16 @@ namespace WPFapplauncher
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-        
-            System.Diagnostics.Process.Start("");
+        //will use the URL scheme to launch the app
+            Launch.LaunchApp();
 
         }
 
         private void Install_Click(object sender, RoutedEventArgs e)
         {
             // link that contain exectuable exe
-            Launch.Installer();
-      
+            Installs.Installer();
+     
         }
     }
 }
