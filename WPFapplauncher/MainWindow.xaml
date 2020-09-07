@@ -19,10 +19,9 @@
             <ColumnDefinition Width="291*"/>
         </Grid.ColumnDefinitions>
         <Label Content="Hereafter&#xD;&#xA;" HorizontalAlignment="Left" Margin="21.982,10,0,0" VerticalAlignment="Top" Width="110" FontWeight="Bold" FontSize="20" Background="#FFEED8D8" Height="36" Grid.Column="1"/>
-        <WebBrowser HorizontalAlignment="Left" Margin="10,0,0,58.714" Width="774" Height="273" VerticalAlignment="Bottom" Grid.ColumnSpan="3"/>
+        <WebBrowser x:Name="Updateisavilableornot" HorizontalAlignment="Left" Margin="10,0,0,58.714" Width="774" Height="273" VerticalAlignment="Bottom" Grid.ColumnSpan="3"/>
         <Button x:Name="Launch_app" Content="Lauch App" HorizontalAlignment="Left" Margin="21.982,368,0,0" VerticalAlignment="Top" Width="91" Height="44" Click="Button_Click" Grid.Column="1"/>
-        <Button x:Name="Install" Content="Install App&#xD;&#xA;" Grid.Column="2" HorizontalAlignment="Left" Margin="102.553,368,0,0" VerticalAlignment="Top" Width="112" Height="44" RenderTransformOrigin="1.463,0.539" Click="Install_Click"/>
-        <Button Content="Update app" Grid.Column="2" HorizontalAlignment="Left" Margin="386.553,0,0,9.714" Width="100" RenderTransformOrigin="5.021,1.597" Height="44" VerticalAlignment="Bottom"/>
+        <Button x:Name="Install" Content="Install App&#xD;&#xA;" Grid.Column="2" HorizontalAlignment="Left" Margin="415.553,368,0,0" VerticalAlignment="Top" Width="112" Height="44" RenderTransformOrigin="1.463,0.539" Click="Install_Click"/>
 
     </Grid>
 </Window>

@@ -108,6 +108,7 @@ namespace WPFapplauncher
         }
 
         internal System.Windows.Controls.Button Install;
+        internal System.Windows.Controls.WebBrowser Updateisavilableornot;
     }
 }
 
