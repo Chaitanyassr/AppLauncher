@@ -33,7 +33,8 @@ namespace WPFapplauncher
 
         private void Install_Click(object sender, RoutedEventArgs e)
         {
-            
+            // link that contain exectuable exe
+            System.Diagnostics.Process.Start("");
         }
     }
 }

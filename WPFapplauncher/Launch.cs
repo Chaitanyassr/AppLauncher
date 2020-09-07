@@ -13,5 +13,13 @@ namespace WPFapplauncher
         {
             Process.Start("app.exe");
         }
+
+    }
+    class Install
+    {
+        public static void Installer()
+        {
+            Process.Start("Install.exe");
+        }
     }
 }
