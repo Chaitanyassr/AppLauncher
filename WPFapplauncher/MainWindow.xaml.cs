@@ -27,14 +27,16 @@ namespace WPFapplauncher
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Launch.PlayGame();
-           
+        
+            System.Diagnostics.Process.Start("");
+
         }
 
         private void Install_Click(object sender, RoutedEventArgs e)
         {
             // link that contain exectuable exe
-            System.Diagnostics.Process.Start("");
+            Launch.Installer();
+      
         }
     }
 }

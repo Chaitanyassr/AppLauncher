@@ -9,9 +9,10 @@ namespace WPFapplauncher
 {
     class Launch
     {
-        public static void PlayGame()
+        public static void Installer()
         {
-            Process.Start("app.exe");
+            // Install is the exectuable file that will download the msi from the webstie where Hereafter project would be there
+            Process.Start("Install.exe");
         }
 
     }
@@ -19,7 +20,7 @@ namespace WPFapplauncher
     {
         public static void Installer()
         {
-            Process.Start("Install.exe");
+
         }
     }
 }
