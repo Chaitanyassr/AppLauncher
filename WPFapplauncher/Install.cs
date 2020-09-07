@@ -12,7 +12,7 @@ namespace WPFapplauncher
         public static void Installer()
         {
             // This will open the scheme of the installed hereafter app 
-            Process.Start("");
+            Process.Start("install.exe");
         }
     }
 }
