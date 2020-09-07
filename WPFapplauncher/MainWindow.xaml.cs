@@ -30,5 +30,10 @@ namespace WPFapplauncher
             Launch.PlayGame();
            
         }
+
+        private void Install_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
