@@ -1,4 +1,4 @@
-#App launcher
+# App launcher
 
 - Build the app by writing the scheme of the msi (installable pack) in Launch.cs.
 - Also write the name of the exe file(in install.cs), in this case we are considering install.exe .
